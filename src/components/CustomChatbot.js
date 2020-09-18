@@ -71,10 +71,12 @@ function BuscaMensagens (props) {
           setLoading(!loading);
 
           if(resMessagesWaiting > 0) {                                    
-            props.triggerNextStep({trigger: '2'});
+            //props.triggerNextStep({trigger: '2'});
+            props.triggerNextStep({trigger: '4'}); // temporario
           }
           else {
-            props.triggerNextStep({trigger: '3'});
+            //props.triggerNextStep({trigger: '3'});
+            props.triggerNextStep({trigger: '4'});
           }
         }
       }
