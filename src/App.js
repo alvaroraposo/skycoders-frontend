@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import CustomChatbot from './components/CustomChatbot';
 
+
 function App() {
-  const [messageGroupId, setMessageGroupId] = useState("");
+  const [messageGroupId, setMessageGroupId] = useState("alvaroraposo@gmail.com");
 
 //  (<><input id="idInput" type="text" placeholder="Digite seu login VTex"/>
   return (
